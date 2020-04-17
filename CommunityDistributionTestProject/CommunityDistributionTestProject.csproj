@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netcoreapp3.1;net48</TargetFrameworks>
+        <TargetFramework>net48</TargetFramework>
         <NoWarn>CS0660;CS0661</NoWarn>
         <DefineConstants>TRACE;CHECK_UNSAFE_MEMORY</DefineConstants>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -19,6 +19,10 @@
         <PackageReference Include="PostSharp.Community.HelloWorld" Version="1.2.0-preview" />
         <PackageReference Include="PostSharp.Community.StructuralEquality" Version="1.0.0-preview" />
         <PackageReference Include="PostSharp.Community.Virtuosity" Version="1.0.0-preview" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\PackerTest\PackerTest.csproj" />
     </ItemGroup>
 
 </Project>

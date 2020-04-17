@@ -1,5 +1,6 @@
 using PostSharp.Community.ToString;
 using Xunit;
+#pragma warning disable 414
 
 namespace CommunityDistributionTestProject
 {
