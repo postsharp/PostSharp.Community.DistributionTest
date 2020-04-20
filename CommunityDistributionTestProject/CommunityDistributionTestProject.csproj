@@ -9,16 +9,16 @@
     
     <ItemGroup>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
-        <PackageReference Include="PostSharp.Community.ToString" Version="1.0.0-preview" />
-        <PackageReference Include="PostSharp.Community.UnsafeMemoryChecker" Version="1.1.0-preview" />
         <PackageReference Include="xunit" Version="2.4.0" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
         <PackageReference Include="coverlet.collector" Version="1.0.1" />
         
-        <PackageReference Include="PostSharp.Community.DeepSerializable" Version="1.2.0-preview" />
-        <PackageReference Include="PostSharp.Community.HelloWorld" Version="1.2.0-preview" />
-        <PackageReference Include="PostSharp.Community.StructuralEquality" Version="1.0.0-preview" />
-        <PackageReference Include="PostSharp.Community.Virtuosity" Version="1.0.0-preview" />
+        <PackageReference Include="PostSharp.Community.DeepSerializable" Version="1.3.0" />
+        <PackageReference Include="PostSharp.Community.HelloWorld" Version="1.4.0" />
+        <PackageReference Include="PostSharp.Community.StructuralEquality" Version="1.1" />
+        <PackageReference Include="PostSharp.Community.Virtuosity" Version="1.1" />
+        <PackageReference Include="PostSharp.Community.ToString" Version="1.1" />
+        <PackageReference Include="PostSharp.Community.UnsafeMemoryChecker" Version="1.2" />
     </ItemGroup>
     
     <ItemGroup>
